@@ -4,10 +4,118 @@
     width: 100%
     height: 470px
     background-color: $color-black
-    padding: 111px 219px 139px 169px
+    padding: 111px 12% 139px 12%
     box-sizing: border-box
 
-    .container
+    .box-footer
         width: 100%
         height: 225px
-        // background: #FFF
+        display: flex
+        flex-direction: row
+
+        .box-hotel-userfull-link, .box-services-reach-us
+            width: 50%
+            height: 100%
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+
+            .hotel, .usefull-link, .services
+              height: 100%
+              display: flex
+              flex-direction: column
+              justify-content: space-between
+
+            .hotel
+              img
+                width: 102px
+                margin-bottom: 13px
+
+              p
+                margin-bottom: 24px
+                color: $color-white
+                font-size: 16px
+
+              .social-medias
+                width: 60%
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+
+                img
+                  width: 32px
+                  cursor: pointer
+                  
+                  &:hover
+                    opacity: .8
+                    transform: scale(1.1)
+
+              input
+                width: 230px
+                height: 40px
+                border: none
+                border-radius: 5px
+                box-sizing: border-box
+                padding-left: 10px
+                box-shadow: 0 0 0 0
+                outline: 0
+                margin-top: 31px
+
+            .usefull-link
+              h4
+                font-size: 22px
+                font-weight: 700
+                color: $color-white
+
+              .links
+                font-size: 16px
+                text-decoration: none
+                color: $color-white
+                margin-top: 15px
+                cursor: pointer
+
+                &:hover
+                  opacity: .8
+
+            .services
+              h4
+                font-size: 22px
+                font-weight: 700
+                color: $color-white
+
+              span
+                font-size: 16px
+                text-decoration: none
+                color: $color-white
+                margin-top: 15px
+
+            .reach-us
+              height: 100%
+              display: flex
+              flex-direction: column
+              align-items: flex-start
+
+              h4
+                font-size: 22px
+                font-weight: 700
+                color: $color-white
+
+              .icon-and-text
+                display: flex
+                flex-direction: row
+                width: 100%
+                align-items: center
+                margin-top: 22px
+
+                img
+                  margin-right: 18px
+
+                span
+                  font-size: 16px
+                  text-decoration: none
+                  color: $color-white
+
+
+        .box-services-reach-us
+          margin-left: 11%

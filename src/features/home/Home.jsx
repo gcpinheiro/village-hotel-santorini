@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './components/banner/Banner'
+import OurRoom from './components/our-room/OurRoom'
 
 
 class Home extends React.Component {
@@ -15,6 +16,7 @@ class Home extends React.Component {
     return (
       <>
       <Banner />
+      <OurRoom />
     </>
     )
   }

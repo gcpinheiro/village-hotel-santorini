@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './../../shared/nav/Nav'
 
 
 class AboutUs extends React.Component {
@@ -13,8 +14,8 @@ class AboutUs extends React.Component {
   render (){
     return (
       <>
-        <h1>AboutUs Active</h1>
-    </>
+        <Nav />
+      </>
     )
   }
 }

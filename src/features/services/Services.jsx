@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './../../shared/nav/Nav'
 
 
 class Services extends React.Component {
@@ -13,7 +14,7 @@ class Services extends React.Component {
   render (){
     return (
       <>
-        <h1>Services Active</h1>
+        <Nav />
     </>
     )
   }

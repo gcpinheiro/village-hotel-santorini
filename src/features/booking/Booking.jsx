@@ -1,4 +1,6 @@
 import React from 'react';
+import Nav from './../../shared/nav/Nav'
+
 
 
 class Booking extends React.Component {
@@ -13,7 +15,7 @@ class Booking extends React.Component {
   render (){
     return (
       <>
-        <h1>Booking Active</h1>
+        <Nav />
     </>
     )
   }
