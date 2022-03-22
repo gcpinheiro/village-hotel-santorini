@@ -1,0 +1,37 @@
+@import './../../core/sass/variables';
+
+
+.container-card-service
+  width: 255px
+  height: 200px
+  display: flex
+  flex-direction: column
+  background: $color-white
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.15), 0px 2px 8px rgba(0, 0, 0, 0.15)
+  border-radius: 5px
+  padding: 15px 23px 24px 23px
+  box-sizing: border-box
+  cursor: pointer
+  
+  &:hover
+    animation: fadeIn 1s forwards
+
+  img
+    width: 44px
+    margin-bottom: 19px
+
+  h1
+    color: $color-blue
+    font-weight: 700
+    font-size: 22px
+    margin-bottom: 26px
+
+  p
+    font-size: 16px
+    color: $color-black-text
+@keyframes fadeIn 
+  0% 
+    transform: scale(1.0)
+
+  100% 
+    transform: scale(1.05)
