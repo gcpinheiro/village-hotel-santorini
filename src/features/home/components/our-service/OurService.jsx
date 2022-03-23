@@ -1,7 +1,6 @@
 import React from 'react';
 import './our-service.sass';
 import CardService from './../../../../shared/card-service/CardService'
-import baliVideo from './../../../../assets/video/bali.mp4';
 
 
 class OurService extends React.Component {
@@ -28,12 +27,6 @@ class OurService extends React.Component {
           </div>
         </div>
         <div className="cards-our-service">
-          <div className="box-card-service">
-            <CardService />
-          </div>
-          <div className="box-card-service">
-            <CardService />
-          </div>
           <div className="box-card-service">
             <CardService />
           </div>
